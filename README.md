@@ -1,12 +1,10 @@
-# Selenify
-
-
+# Welcome to My Project
 
 <svg fill="none" viewBox="0 0 600 300" width="600" height="300" xmlns="http://www.w3.org/2000/svg">
   <foreignObject width="100%" height="100%">
     <div xmlns="http://www.w3.org/1999/xhtml">
       <style>
-        @keyframes hi  {
+        @keyframes wave  {
             0% { transform: rotate( 0.0deg) }
            10% { transform: rotate(14.0deg) }
            20% { transform: rotate(-8.0deg) }
@@ -50,8 +48,8 @@
           font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
         }
 
-        .hi {
-          animation: hi 1.5s linear -0.5s infinite;
+        .wave {
+          animation: wave 1.5s linear -0.5s infinite;
           display: inline-block;
           transform-origin: 70% 70%;
         }
@@ -70,23 +68,38 @@
             animation: none;
           }
 
-          .hi {
+          .wave {
             animation: none;
           }
         }
       </style>
 
       <div class="container">
-        <h1>Hi there, my name is Adil <div class="hi">👋</div></h1>
+        <h1>Welcome to My Project <div class="wave">👋</div></h1>
       </div>
     </div>
   </foreignObject>
 </svg>
 
-1. Java, Selenium, testNg, Maven, Jenkins are used for this UI automation testing
+## About This Project
 
-2. In this project we'll learn about Selenium 4 with Java for UI Automation
+This project is designed to demonstrate the use of animations in a README file. By using SVG and CSS, we can create engaging and interactive elements that enhance the user experience.
 
-3. Java will be used here as Programming language
+## Features
 
-4. For reporting, we'll use 'Allure Reports'
+- Animated greeting
+- Responsive design
+- Easy to integrate into any project
+
+## How to Use
+
+To use this animated greeting in your own project, simply copy and paste the SVG code into your README.md file.
+
+```markdown
+<svg fill="none" viewBox="0 0 600 300" width="600" height="300" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <!-- Your animated content goes here -->
+    </div>
+  </foreignObject>
+</svg>
