@@ -1,12 +1,6 @@
 # Selenify
 
-1. Java, Selenium, testNg, Maven, Jenkins are used for this UI automation testing
 
-2. In this project we'll learn about Selenium 4 with Java for UI Automation
-
-3. Java will be used here as Programming language
-
-4. For reporting, we'll use 'Allure Reports'
 
 <svg fill="none" viewBox="0 0 600 300" width="600" height="300" xmlns="http://www.w3.org/2000/svg">
   <foreignObject width="100%" height="100%">
@@ -23,8 +17,27 @@
           100% { transform: rotate( 0.0deg) }
         }
 
+        @keyframes gradient {
+          0% {
+            background-position: 0% 50%;
+          }
+          50% {
+            background-position: 100% 50%;
+          }
+          100% {
+            background-position: 0% 50%;
+          }
+        }
+
         .container {
-          background-color: black;
+          --color-main: #5452ee;
+          --color-primary: #e73c7e;
+          --color-secondary: #23a6d5;
+          --color-tertiary: #ffff;
+
+          background: linear-gradient(-45deg, var(--color-main), var(--color-primary), var(--color-secondary), var(--color-tertiary));
+          background-size: 400% 400%;
+          animation: gradient 15s ease infinite;
 
           width: 100%;
           height: 300px;
@@ -43,7 +56,20 @@
           transform-origin: 70% 70%;
         }
 
+        @media (prefers-color-scheme: light) {
+          .container {
+            --color-main: #F15BB5;
+            --color-primary: #24b0ef;
+            --color-secondary: #4526f6;
+            --color-tertiary: #f6f645;
+          }
+        }
+
         @media (prefers-reduced-motion) {
+          .container {
+            animation: none;
+          }
+
           .hi {
             animation: none;
           }
@@ -51,8 +77,16 @@
       </style>
 
       <div class="container">
-        <h1>Hi there, my name is Nikola <div class="hi">👋</div></h1>
+        <h1>Hi there, my name is Adil <div class="hi">👋</div></h1>
       </div>
     </div>
   </foreignObject>
 </svg>
+
+1. Java, Selenium, testNg, Maven, Jenkins are used for this UI automation testing
+
+2. In this project we'll learn about Selenium 4 with Java for UI Automation
+
+3. Java will be used here as Programming language
+
+4. For reporting, we'll use 'Allure Reports'
