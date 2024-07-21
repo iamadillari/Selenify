@@ -7,3 +7,5 @@
 3. Java will be used here as Programming language
 
 4. For reporting, we'll use 'Allure Reports'
+
+5. Practice will be based on RahulShetty tutorials
