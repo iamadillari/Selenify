@@ -8,4 +8,4 @@
 
 4. For reporting, we'll use 'Allure Reports'
 
-5. Practice will be based on RahulShetty tutorials
+5. Practice will be based on RahulShetty tutorials from Udemy
