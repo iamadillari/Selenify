@@ -3,17 +3,19 @@ package com.testing;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.safari.SafariDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
 
 import java.time.Duration;
 
 public class ForgotPasswordClick {
-    WebDriver driver = new ChromeDriver();
+
+    WebDriver driver;
 
     @Test
     public void testLocators() throws InterruptedException {
-
+        driver = new ChromeDriver();
         driver.get("https://rahulshettyacademy.com/locatorspractice/");
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
@@ -30,13 +32,19 @@ public class ForgotPasswordClick {
         driver.findElement(By.xpath("//input[@placeholder='Email']")).clear();
         driver.findElement(By.xpath("//input[@placeholder='Email']")).sendKeys("aman.gupta@gmail.com");
         driver.findElement(By.xpath("//input[@placeholder='Phone Number']")).sendKeys("97723131331");
+        Thread.sleep(1000);
+        driver.findElement(By.xpath("//form/input[3]")).clear();
+        Thread.sleep(1000);
+        driver.findElement(By.cssSelector("input[placeholder='Phone Number']")).sendKeys("914354432332");
+        Thread.sleep(1000);
         driver.findElement(By.xpath("//button[@class=\"reset-pwd-btn\"]")).click();
         String infoMsg = driver.findElement(By.xpath("//p[@class='infoMsg']")).getText();
         System.out.println(infoMsg);
     }
 
     @AfterTest
-    public void tearDown() {
+    public void tearDown()
+    {
         driver.quit();
     }
 
