@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcc6affe-4c41-4aa0-a66d-4c581e8ec584" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/testing/SuccessfulLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/testing/TestAug.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/testing/TestAug2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/testing/ForgotPasswordClick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/testing/ForgotPasswordClick.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/testing/SignIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/testing/SignIn.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,8 +92,9 @@
       <recent name="com.testing" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.SignIn.testLocators">
-    <configuration name="FlipkartTesting.launchGoogleOnSafari" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.TestAug2">
+    <configuration name="TestAug" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.testing.TestAug" />
       <module name="Selenify" />
       <extension name="coverage">
         <pattern>
@@ -100,17 +102,12 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.testing" />
-      <option name="MAIN_CLASS_NAME" value="com.testing.FlipkartTesting" />
-      <option name="METHOD_NAME" value="launchGoogleOnSafari" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ForgotPasswordClick" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestAug2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.testing.TestAug2" />
       <module name="Selenify" />
       <extension name="coverage">
         <pattern>
@@ -118,46 +115,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.testing" />
-      <option name="MAIN_CLASS_NAME" value="com.testing.ForgotPasswordClick" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ForgotPasswordClick.testLocators" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Selenify" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.testing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.testing" />
-      <option name="MAIN_CLASS_NAME" value="com.testing.ForgotPasswordClick" />
-      <option name="METHOD_NAME" value="testLocators" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SignIn" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Selenify" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.testing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.testing" />
-      <option name="MAIN_CLASS_NAME" value="com.testing.SignIn" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -180,13 +137,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SuccessfulLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenify" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.testing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.testing" />
+      <option name="MAIN_CLASS_NAME" value="com.testing.SuccessfulLogin" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SuccessfulLogin.testLocators" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenify" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.testing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.testing" />
+      <option name="MAIN_CLASS_NAME" value="com.testing.SuccessfulLogin" />
+      <option name="METHOD_NAME" value="testLocators" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestAug2" />
+        <item itemvalue="Application.TestAug" />
+        <item itemvalue="TestNG.SuccessfulLogin" />
+        <item itemvalue="TestNG.SuccessfulLogin.testLocators" />
         <item itemvalue="TestNG.SignIn.testLocators" />
-        <item itemvalue="TestNG.SignIn" />
-        <item itemvalue="TestNG.ForgotPasswordClick" />
-        <item itemvalue="TestNG.ForgotPasswordClick.testLocators" />
-        <item itemvalue="TestNG.FlipkartTesting.launchGoogleOnSafari" />
       </list>
     </recent_temporary>
   </component>
