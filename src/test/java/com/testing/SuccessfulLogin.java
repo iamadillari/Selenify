@@ -19,7 +19,8 @@ public class SuccessfulLogin {
         userName = "Adil";
         driver = new SafariDriver();
         driver.get("https://rahulshettyacademy.com/locatorspractice/");
-        driver.manage().window().maximize();
+        //driver.manage().window().maximize();
+        driver.manage().window().fullscreen();//this is an alternate solution for maximise the window, if window is not maximised using above
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
         driver.findElement(By.cssSelector("#inputUsername")).sendKeys(userName);
         driver.findElement(By.xpath("//input[@type=\"password\"]")).sendKeys("rahulshettyacademy");

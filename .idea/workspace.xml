@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcc6affe-4c41-4aa0-a66d-4c581e8ec584" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/testing/SuccessfulLogin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/testing/TestAug.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/testing/TestAug2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/testing/FlipkartTesting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/testing/SuccessfulLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/testing/SuccessfulLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/testing/Test21Aug.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/testing/Test21Aug2.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,9 +93,9 @@
       <recent name="com.testing" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestAug2">
-    <configuration name="TestAug" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.testing.TestAug" />
+  <component name="RunManager" selected="TestNG.SuccessfulLogin.testLocators">
+    <configuration name="Test21Aug2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.testing.Test21Aug2" />
       <module name="Selenify" />
       <extension name="coverage">
         <pattern>
@@ -106,8 +107,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestAug2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.testing.TestAug2" />
+    <configuration name="com.testing.Test21Aug" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.testing.Test21Aug" />
       <module name="Selenify" />
       <extension name="coverage">
         <pattern>
@@ -174,10 +175,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestAug2" />
-        <item itemvalue="Application.TestAug" />
-        <item itemvalue="TestNG.SuccessfulLogin" />
         <item itemvalue="TestNG.SuccessfulLogin.testLocators" />
+        <item itemvalue="TestNG.SuccessfulLogin" />
+        <item itemvalue="Application.Test21Aug2" />
+        <item itemvalue="Application.com.testing.Test21Aug" />
         <item itemvalue="TestNG.SignIn.testLocators" />
       </list>
     </recent_temporary>
