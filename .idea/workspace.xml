@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcc6affe-4c41-4aa0-a66d-4c581e8ec584" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/testing/FollowingSibling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/testing/Test29Aug.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/testing/UseOfParent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/testing/FlipkartTesting.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/testing/SuccessfulLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/testing/SuccessfulLogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/testing/Test21Aug.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/testing/Test21Aug2.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +61,7 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/4.11.0/selenium-api-4.11.0-sources.jar!/org/openqa/selenium/WebDriver.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/README.md" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -93,9 +93,9 @@
       <recent name="com.testing" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.SuccessfulLogin.testLocators">
-    <configuration name="Test21Aug2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.testing.Test21Aug2" />
+  <component name="RunManager" selected="Application.UseOfParent">
+    <configuration name="FollowingSibling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.testing.FollowingSibling" />
       <module name="Selenify" />
       <extension name="coverage">
         <pattern>
@@ -107,8 +107,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.testing.Test21Aug" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.testing.Test21Aug" />
+    <configuration name="UseOfParent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.testing.UseOfParent" />
       <module name="Selenify" />
       <extension name="coverage">
         <pattern>
@@ -120,7 +120,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SignIn.testLocators" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="com.testing.Test29Aug" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.testing.Test29Aug" />
       <module name="Selenify" />
       <extension name="coverage">
         <pattern>
@@ -128,12 +129,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.testing" />
-      <option name="MAIN_CLASS_NAME" value="com.testing.SignIn" />
-      <option name="METHOD_NAME" value="testLocators" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -175,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UseOfParent" />
+        <item itemvalue="Application.FollowingSibling" />
+        <item itemvalue="Application.com.testing.Test29Aug" />
         <item itemvalue="TestNG.SuccessfulLogin.testLocators" />
         <item itemvalue="TestNG.SuccessfulLogin" />
-        <item itemvalue="Application.Test21Aug2" />
-        <item itemvalue="Application.com.testing.Test21Aug" />
-        <item itemvalue="TestNG.SignIn.testLocators" />
       </list>
     </recent_temporary>
   </component>
