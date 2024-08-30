@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcc6affe-4c41-4aa0-a66d-4c581e8ec584" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/testing/FollowingSibling.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/testing/Test29Aug.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/testing/UseOfParent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/testing/WIndowActivities.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +90,7 @@
       <recent name="com.testing" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.UseOfParent">
+  <component name="RunManager" selected="Application.WIndowActivities">
     <configuration name="FollowingSibling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.testing.FollowingSibling" />
       <module name="Selenify" />
@@ -120,8 +117,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.testing.Test29Aug" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.testing.Test29Aug" />
+    <configuration name="WIndowActivities" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.testing.WIndowActivities" />
       <module name="Selenify" />
       <extension name="coverage">
         <pattern>
@@ -133,7 +130,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SuccessfulLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="com.testing.Test29Aug" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.testing.Test29Aug" />
       <module name="Selenify" />
       <extension name="coverage">
         <pattern>
@@ -141,11 +139,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.testing" />
-      <option name="MAIN_CLASS_NAME" value="com.testing.SuccessfulLogin" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -170,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WIndowActivities" />
         <item itemvalue="Application.UseOfParent" />
         <item itemvalue="Application.FollowingSibling" />
         <item itemvalue="Application.com.testing.Test29Aug" />
         <item itemvalue="TestNG.SuccessfulLogin.testLocators" />
-        <item itemvalue="TestNG.SuccessfulLogin" />
       </list>
     </recent_temporary>
   </component>
