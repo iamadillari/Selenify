@@ -3,6 +3,7 @@ package com.testing;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.safari.SafariDriver;
 
+
 public class WIndowActivities {
     public static void main(String[] args) throws InterruptedException {
         WebDriver driver = new SafariDriver();
