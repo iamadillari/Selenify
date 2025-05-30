@@ -1,0 +1,38 @@
+public void validateClientOnboarding(String clientId, String operationStatus) throws SQLException {
+    String respClientId = "";
+    String respClientStatus = "";
+    boolean recordFound = false;
+
+    try (Connection conn = PdmDbsManager.getInstance().getDataSource(rdrConfig).getConnection();
+         PreparedStatement ps = conn.prepareStatement(SELECT_CLNT_DTL_SQL)) {
+
+        ps.setString(1, clientId);
+        SqlWait.executeSqlPsQuery(ps);
+        ResultSet resultSet = ps.executeQuery();
+
+        while (resultSet.next()) {
+            DbUtils.waitForDbUpdate(); // Optional wait for sync
+
+            respClientId = resultSet.getString("CLNT_ID");
+            respClientStatus = resultSet.getString("CLNT_STAT");
+
+            if (clientId.equals(respClientId) && operationStatus.equals(respClientStatus)) {
+                recordFound = true;
+                break; // Exit loop once match is found
+            }
+        }
+    }
+
+    AonAssert.assertEquals(respClientId, clientId, "Validating entry in the 'Client Details' Table for the Onboarded ClientId");
+    AonAssert.assertTrue(respClientStatus.contains(operationStatus), "Validating Operation Status in the 'Client Details' Table");
+
+    logger.info("✅ Operation Status: {} found for clientId: {} in 'Client Details' table", operationStatus, clientId);
+
+    // ✅ Now delete the entry from DB after successful validation
+    if (recordFound) {
+        deleteClientRecord(clientId);
+        logger.info("🗑️ Deleted client record for clientId: {}", clientId);
+    } else {
+        logger.warn("⚠️ Record not found for clientId: {}, skipping deletion", clientId);
+    }
+}
